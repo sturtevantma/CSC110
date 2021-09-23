@@ -1,0 +1,1 @@
+print(f"The sampled list is:\n\n{[v for k, v in enumerate([int(input('Enter age: ')) for _ in range(int(input('How many ages have been collected? ')))]) if k % 3 == 0]}")
